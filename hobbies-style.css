@@ -1,0 +1,36 @@
+body {
+    font-family: 'Montserrat';
+    background-color: #f8f9fa;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+nav {
+    background: linear-gradient(135deg, #dfc7a7, #dfc7a7);
+    color: rgb(255, 255, 255);
+}
+header {
+    background: linear-gradient(135deg,  #d7c0a2, #b6a289);
+    color: rgb(255, 255, 255);
+}
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.text-brown {
+    color: #a99880 !important;
+}
+.hobby-card img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hobby-card img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.hobby-card h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+footer {
+    background: linear-gradient(135deg, #dfc7a7, #dfc7a7);
+}

@@ -1,0 +1,38 @@
+body {
+            font-family: 'Montserrat';
+            background-color: #f8f9fa;
+        }
+        .navbar-brand {
+            font-weight: bold;
+        }
+        nav {
+            background: linear-gradient(135deg, #dfc7a7, #dfc7a7);
+            color: rgb(255, 255, 255);
+        }
+        header {
+            background: linear-gradient(135deg,  #d7c0a2, #b6a289);
+            color: rgb(255, 255, 255);
+        }
+        .text-brown {
+            color: #a99880 !important;
+        }
+        .friend-card img {
+            width: 500%;
+            height: 500px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .friend-card img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        .group-photo img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background: linear-gradient(135deg, #dfc7a7, #dfc7a7);
+        }

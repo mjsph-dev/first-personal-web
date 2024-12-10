@@ -1,0 +1,33 @@
+body {
+    font-family: 'Montserrat';
+    background-color: #f8f9fa;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+nav {
+    background: linear-gradient(135deg, #dfc7a7, #dfc7a7);
+    color: rgb(255, 255, 255);
+}
+header {
+    background: linear-gradient(135deg,  #d7c0a2, #b6a289);
+    color: rgb(255, 255, 255);
+}
+.text-primary {
+    color: #a99880 !important;
+}
+img {
+    border: 5px solid #f8f9fa;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background: linear-gradient(135deg, #dfc7a7, #dfc7a7);
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
